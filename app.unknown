@@ -1,0 +1,88 @@
+{
+  "responseId": "7e635ba3-91e9-4c55-8392-1d33598e0cb7-8c1261cd",
+  "queryResult": {
+    "queryText": "cloud computing",
+    "parameters": {
+      "course_name": "cloud computing"
+    },
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Cloud Computing has been registered as your course you\"ll be notified soon",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Cloud Computing has been registered as your course you\"ll be notified soon"
+          ]
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/jarvis1-xstd/locations/global/agent/intents/2ac17440-639e-47fa-a7a2-fdbb0d135c24",
+      "displayName": "course_selection"
+    },
+    "intentDetectionConfidence": 1,
+    "diagnosticInfo": {
+      "webhook_latency_ms": 565
+    },
+    "languageCode": "en",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {
+        "score": 0.2,
+        "magnitude": 0.2
+      }
+    }
+  },
+  "webhookStatus": {
+    "message": "Webhook execution successful"
+  },
+  "alternativeQueryResults": [
+    {
+      "queryText": "cloud computing",
+      "allRequiredParamsPresent": true,
+      "fulfillmentText": "This balance can vary. Some courses focus more on theoretical aspects of cloud computing, while others emphasize practical skills through hands-on projects.",
+      "fulfillmentMessages": [
+        {
+          "text": {
+            "text": [
+              "This balance can vary. Some courses focus more on theoretical aspects of cloud computing, while others emphasize practical skills through hands-on projects."
+            ]
+          }
+        }
+      ],
+      "intent": {
+        "name": "projects/jarvis1-xstd/locations/global/agent/intents/6f355ca9-06ec-4671-9919-48120837e440",
+        "displayName": "Knowledge.KnowledgeBase.NzY3MTI0MzY5ODcyNTcxNTk2OA"
+      },
+      "intentDetectionConfidence": 0.4826141,
+      "languageCode": "en",
+      "sentimentAnalysisResult": {
+        "queryTextSentiment": {
+          "score": 0.2,
+          "magnitude": 0.2
+        }
+      },
+      "knowledgeAnswers": {
+        "answers": [
+          {
+            "source": "projects/jarvis1-xstd/knowledgeBases/NzY3MTI0MzY5ODcyNTcxNTk2OA/documents/MjU5ODkwNDcwODE3NzMzMDE3Ng",
+            "faqQuestion": "What is the balance between theoretical concepts and practical implementation in the cloud computing course?",
+            "answer": "This balance can vary. Some courses focus more on theoretical aspects of cloud computing, while others emphasize practical skills through hands-on projects.",
+            "matchConfidenceLevel": "LOW",
+            "matchConfidence": 0.4826141
+          },
+          {
+            "source": "projects/jarvis1-xstd/knowledgeBases/NzY3MTI0MzY5ODcyNTcxNTk2OA/documents/MjU5ODkwNDcwODE3NzMzMDE3Ng",
+            "faqQuestion": "How hands-on are the labs or practical components of the cloud computing course?",
+            "answer": ":* Course structures vary, but many cloud computing courses include hands-on labs or projects to provide practical experience working with cloud platforms.",
+            "matchConfidenceLevel": "LOW",
+            "matchConfidence": 0.2477294
+          }
+        ]
+      }
+    }
+  ],
+  "agentId": "a3abb9ac-9d9a-4c63-92f3-61ffd098cd86",
+  "agentSettings": {
+    "enableAgentWideKnowledgeConnector": true
+  }
+}
